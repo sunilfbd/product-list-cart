@@ -1,0 +1,49 @@
+.product-list {
+	font-size: 0.875em;
+
+	.product-list-item {
+		width: calc(25% - 42px);
+		margin: 0 15px 15px 0;
+		display: inline-block;
+		padding: 15px;
+		background: $base-white;
+
+		&:nth-child(4n) {
+			margin-right: 0;
+		}
+	}
+
+	.product-list-item-title {
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center
+	}
+
+	.product-list-item-desc {
+		line-height: 1.25;
+		padding: 0 10px 10px;
+
+	}
+
+	.product-list-item-img {
+		width: 100%;
+		margin: 10px 0;	
+	}
+
+	.product-list-item-price {
+		font-size: 1.2em;
+		font-weight: 700;
+		padding-left: 10px;
+	}
+
+	.product-list-item-btn {
+		float: right;
+	    background-color: $primary-red;
+	    border: none;
+	    padding: 10px 25px;
+	    color: $base-white;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	}
+} 
