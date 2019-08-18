@@ -5,17 +5,19 @@ Idea behind was to get hands-on (in 2017) on React and use Redux as a state mana
 Still in progress..
 
 #### How to setup on my localbox
-1 - clone the repository on your localbox
-2 - cd into product-list-cart
-3 - run command below
+ 1 - clone the repository on your localbox
+ 2 - cd into product-list-cart
+ 3 - run command below
+
 ```bash
 npm install
 ```
-4 - run 
+ 4 - run 
+
 ```bash
 npm run build
 ```
-5 - open browser and hit http://localhost:8080/
+ 5 - open browser and hit http://localhost:8080/
 
 ### Tech Stack
  - HTML 
