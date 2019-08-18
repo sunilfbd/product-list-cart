@@ -5,7 +5,7 @@ Repository contains product list page with add to cart feature with product pric
 npm install
 ```
 
-## Tech Stack
+### Tech Stack
  - HTML 
  - SASS
  - ES6
