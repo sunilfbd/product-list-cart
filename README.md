@@ -3,7 +3,10 @@ Repository contains small practice project, based upon a very small workflow i.e
 Idea behind was to get hands-on (in 2017) on React and use Redux as a state managment library..
 
 In order to have local environment also did some manual basic webpack steup having plugin like:
- - offcourse react, react-dom, redux react-redux
+ - React
+ - react-dom
+ - Redux 
+ - react-redux
  - sass-loader
  - babel-loader
  - for reducers (https://redux.js.org/api/combinereducers)
