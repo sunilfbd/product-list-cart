@@ -1,2 +1,2 @@
-# product-list-cart
-Repository contains product list page with add to cart feature with product price calculation
+# Shopping Cart with Product listing page
+Repository contains product list page with add to cart feature with product price calculation.
