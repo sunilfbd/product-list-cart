@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {BrowserRouter, Route, IndexRoute, Switch} from "react-router-dom";
 
@@ -7,7 +7,7 @@ import { Footer } from "./Footer";
 import ProductCart from "./ProductCart";
 import CartTable from "./CartTable";
 
-class App extends React.Component {
+class App extends Component {
 	constructor(props){
 		super(props);
 	}

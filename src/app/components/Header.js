@@ -5,7 +5,6 @@ export class Header extends React.Component {
 	render() {
 		return (
 			<div className="Header">
-			
 				<div className="logoWrapper">
 					<NavLink exact to='/'>
 						<img className="logo" src="/images/logo.png" alt="AKQA Logo"/>

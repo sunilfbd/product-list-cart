@@ -26,8 +26,12 @@ var config = {
 				}
 			},
 			{
-				test: /\.scss$/,
-				use: [MiniCssExtractPlugin.loader, 'css-loader'],
+				test: /\.scss$/i,
+				use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'sass-loader'
+                ]
 			},
 		]
 	},
